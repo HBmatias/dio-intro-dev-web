@@ -1,0 +1,27 @@
+*{
+    font-family: 'ROBOTO', sans-serif;
+    box-sizing: border-box;
+}
+
+#detailList{
+    background-color: aqua;
+}
+
+@media screen and (min-width: 992px){
+    .content{
+        max-width: 992px;
+        height: auto;
+        margin: 1rem auto;
+        border-radius: 1rem;
+    }   
+}
+
+.detailReturn button {
+    padding: .25rem .5rem;
+    color: #fff;
+    background-color: #6c79db;
+    border: none;
+    border-radius: 1rem;
+    font-size: 1rem;
+    margin: 1rem 0;
+}
